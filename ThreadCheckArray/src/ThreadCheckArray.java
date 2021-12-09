@@ -6,7 +6,7 @@ public class ThreadCheckArray implements Runnable {
 	SharedData sd;
 	ArrayList<Integer> array;
 	int b;
-//comment for lab3
+//comment for lab3 ssss
 	public ThreadCheckArray(SharedData sd) {
 		this.sd = sd;
 		synchronized (sd) {
